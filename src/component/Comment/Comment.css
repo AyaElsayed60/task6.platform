@@ -1,0 +1,237 @@
+.comment {
+  display: flex;
+  align-items: flex-start;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f7f7f7;
+  padding: 10px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.score button {
+  background: none;
+  border: none;
+  color: #c9d3c9;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.score button.active.upvote {
+  color: #5cb85c;
+}
+
+.score button.active.downvote {
+  color: #d9534f;
+}
+
+.score span {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.content {
+  flex: 1;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.username {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.time {
+  color: #888;
+}
+
+.comment-text {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+
+
+
+
+/*.Edit-button {
+  background: none;
+  border: none;
+  color: #0275d8;
+  cursor: pointer;
+text-align: right;
+font-weight: bold;
+float: right;
+flex-grow: 2;
+text-align: right;
+}*/
+
+
+
+.edit-button{
+  background: none;
+  border: none;
+  color: #0275d8;
+  cursor: pointer;
+text-align: right;
+font-weight: bold;
+float: right;
+}
+
+.Save{
+  background: none;
+  border: none;
+  color: #0275d8;
+  cursor: pointer;
+font-weight: bold;
+}
+
+.you{
+
+  color:white;
+  background-color:#0275d8;
+  height: 20px;
+  width: 30px;
+  margin-left: 20p;
+  text-align: center;  
+}
+
+.textarea{
+ width: 400p;
+ height: auto;
+}
+
+.reply-button {
+  background: none;
+  border: none;
+  color: #0275d8;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.reply-icon {
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  color: #0275d8;
+  margin-right: 5px;
+}
+
+.actions {
+  display: flex;
+  flex-grow: 1;
+  text-align: right;
+  justify-content: flex-end; 
+}
+
+.reply-form {
+  margin-top: 10px;
+  padding: 10px;
+  background: #f7f7f7;
+  border-radius: 8px;
+}
+
+.reply-form .textarea {
+  width: 100%;
+  height: 60px;
+}
+
+.reply-form .Save {
+  background-color: #0275d8;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.replies {
+  margin-top: 10px;
+  padding-left: 40px;
+}
+
+.reply {
+  margin-bottom: 10px;
+}
+.delete-reply-button {
+  background: none;
+  color: #ff4d4d;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+
+.edit-button{
+  display: flex;
+  color: #0275d8;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  color: inherit;
+  margin-right: 0.5rem;
+}
+
+
+.edit-icon{
+  margin-right: 5px; 
+  width: 10px; 
+  height: 10px; 
+  color: #0275d8;
+}
+
+.delete-icon {
+  margin-right: 5px; 
+  width: 10px; 
+  height: 10px;
+  color: #d9534f;
+}
+
+.edit-button {
+  background: none;
+  border: none;
+  color: #0275d8;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.edit-delete-buttons {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; 
+}
+
+.you {
+  color: white;
+  font-weight: normal;
+  margin-left: 0.5rem;
+  width: 20px;
+  height:25px;
+}
